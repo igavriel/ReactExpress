@@ -17,5 +17,7 @@ npm install -g gulp
 npm install -g bower
 
 npm install --save express
+npm install --save gulp
+npm install --save gulp-live-server
 ```
 
