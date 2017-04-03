@@ -1,0 +1,17 @@
+{
+  "name": "react-express",
+  "description": "React Express Demo",
+  "main": "",
+  "authors": [
+    "iGavriel <igavriel@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/igavriel/ReactExpress",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

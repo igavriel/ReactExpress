@@ -1,0 +1,23 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "React Express Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igavriel/ReactExpress.git"
+  },
+  "author": "Ilan Gavriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igavriel/ReactExpress/issues"
+  },
+  "homepage": "https://github.com/igavriel/ReactExpress#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "open": "0.0.5"
+  }
+}
