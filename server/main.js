@@ -5,16 +5,8 @@ var open = require('open');
 var port = 3000;
 var app = new express();
 
+// must install 'npm install ejs'
 app.set('view engine', 'ejs');
-//res.render(path.join(__dirname, '../app/index.ejs'),{});
-//      res.sendFile(path.join(__dirname, '../app/index.html'));
-//   res.sendFile('../app/index.html');
-
-// which route to process 
-//app.get('/', function(req,res) {
-//  res.render(path.join(__dirname, '../app/index.ejs'),{});
-//res.sendFile(path.join(__dirname, '../app/index.html'));
-//} )
 
 app.get('/', function(req,res) {
     res.render(path.join(__dirname, '../app/index'), function(err,html){
@@ -26,7 +18,7 @@ app.get('/', function(req,res) {
         }
     });
 } )
-
+.use(express.static(__dirname + '/../.tmp'))
 // listen to the port above
 app.listen(port, function(err){
     if(err) {

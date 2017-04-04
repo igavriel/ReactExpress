@@ -17,12 +17,18 @@
   },
   "homepage": "https://github.com/igavriel/ReactExpress#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "browserify": "^14.1.0",
     "gulp": "^3.9.1",
     "gulp-live-server": "0.0.30",
-    },
-
+    "reactify": "^1.1.1"
+  },
   "dependencies": {
+    "ejs": "^2.5.6",
     "express": "^4.15.2",
-    "open": "0.0.5"
+    "open": "0.0.5",
+    "react": "^15.4.2",
+    "react-tools": "^0.13.3",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
